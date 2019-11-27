@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.left{
+   
+   height: 100%;
+    width: 40%;
+    background-color: #fff;
+    position: fixed!important;
+    float: left;
+ }
+ .anh{
+    background-position: center;
+     background-size: cover;
+     background-image: url("https://www.w3schools.com//w3images/profile_girl.jpg");
+     min-height: 100%;
+    width: 100%;
+ }
+ h1{
+     margin: 20px;
+     margin-left: 20px;
+
+ }
+ a{
+     text-decoration: none;
+     color: black;
+ }
+ .right{
+     width: 60%;
+     height: 5300px;
+     float: right;
+     left:20px;
+ }
+ .header{
+     height: 250px;
+     margin: 0;
+     text-align: center;
+     padding:100px;
+ }
+ .button button{
+     padding: 16px 16px;
+     border: none;
+ }
+ .button button:hover{
+     background-color: gray;
+ }
+.image{
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 1300px;
+    display: flex;
+    padding: 0px 8px;
+}
+.anh_left{
+    width: 50%;
+    margin-right: 15px;
+    background-position: center;
+    margin-bottom: 15px;
+}
+.anh_right{
+    width: 50%;
+    float: right;
+}
+.content{
+   height: 270px;
+   margin-left: 20px;
+    margin-right: 20px;
+    color:#757575;
+}
+
+
+h2{
+    font-weight: 400;
+    font-size: 30px;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+.text{
+    margin-top: 20px;
+    font-size: 15px;
+    line-height: 1.5;
+}
+.chu{
+    letter-spacing: 4px;
+    font-size: 15px;
+    margin-top: 10px;
+    font-weight: 400;
+}
+.gray{
+    width: 100%;
+    background-color: #f1f1f1!important;
+    
+}
+.tile{
+    color: #fff!important;
+    background-color: #616161!important;
+    padding: 3px 5px!important;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 15px;
+}
+.content2{
+    margin-top: 30px;
+    width: 100%;
+    height: 100px;
+    color: #fff!important;
+    background-color: #616161!important;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    display: flex;
+}
+.cot1{
+    width: 25%;
+    height: 100%;
+    font-size: 25px;
+    padding: 20px;
+}
+.avatar{
+   
+    border-radius: 50%;
+    margin-right: 15px;
+    color: black;
+}
+.reputation{
+    width: 100%;
+    height: 150px;
+    margin-top: 20px;
+}
+.reputation .reputation-1 img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50% 50%;
+}
+
+.reputation .reputation-1{
+    width: 100%;
+    display: flex;
+    margin: 30px 0;
+}
+
+.reputation .reputation-1 p{
+    margin-left: 10px;
+    margin-top: 15px;
+}
+.price{
+    margin: 3em 0;
+    width: 100%;
+    display: flex;
+}
+
+.basic{
+    width: 50%;
+    margin-right: 8px;
+    
+}
+
+.pro{
+    width: 50%;
+    margin-left: 8px;
+   
+}
+
+.price-sub{
+    text-align: center;
+    width: 100%;
+    color: white;
+    line-height: 80px;
+    box-shadow: 0 0 15px #adadad;
+}
+
+.price-sub:hover{
+    box-shadow: 0 0 35px #adadad;
+}
+
+.price-sub ul{
+    width: 100%;
+    list-style: none;
+    padding: 0;
+    background: white;
+   
+    height: auto;
+}
+
+.price-sub ul li{
+    height: 50px;
+    width: 100%;
+    line-height: 50px;
+    text-align: center;
+    color: #616161;
+}
+
+.btn{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    background: #F1F1F1;
+    
+}
+
+.btn button{
+    padding: 12px 24px;
+    background: white;
+    text-decoration: none;
+}
+
+.btn button:hover{
+    background: black;
+    color: white;
+}
+.contact{
+    margin-top: 100px;
+    width: 100%;
+    color: rgb(128, 128, 128);
+}
+
+.contact p{
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: 25px;
+}
+.picture{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-position: center;
+     background-size: cover;
+     background-image: url("https://www.w3schools.com/w3images/map.jpg");
+     min-height: 100%;
+     height: 450px;
+    width: 100%;
+}
+.form input{
+    margin: 15px 0;
+    
+}
+.footer{
+    width: 100%;
+    margin-top: 60px;
+    background: #F1F1F1;
+    height: 200px;
+    
+}
+
+.footer span{
+    text-align: center;
+    color: #616161;
+}
+
+span a{
+    color: #616161;
+}
+
+span a:hover{
+    color: green;
+}
+
+.footer .icon{
+    padding-top: 80px;
+    width: 100%;
+    text-align: center;
+}
+
+.footer .icon i{
+    color: #616161;
+    font-size: 25px;
+}
+
+.footer .icon i:hover{
+    opacity: 0.6;
+}
+@media (max-width:600px)
+{
+    .anh{
+        display: block;
+    }
+}
